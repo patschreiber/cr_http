@@ -1,0 +1,18 @@
+name: cr_http
+version: 0.1.0
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    branch: master
+
+authors:
+  - Patrick Schreiber
+
+targets:
+  cr_http:
+    main: src/cr_http.cr
+
+crystal: 0.24.2
+
+license: MIT
